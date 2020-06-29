@@ -1,0 +1,30 @@
+############################## 基础配置 ############################################
+server:
+   port: 8888
+
+############################## Rabbitmq配置 ########################################
+spring:
+   rabbitmq:
+      host: 120.24.4.145
+      port: 5672
+      username: root
+      password: root
+      virtual-host: /
+      connection-timeout: 15000
+      #开启confirm机制
+      publisher-confirms: true
+      #开启return模式
+      publisher-returns: true
+      #配合return机制使用，表示接收路由不可达的消息
+      template:
+         mandatory: true
+      listener:
+         simple: 
+            #设置签收模式：AUTO（自动签收）、MANUAL（手工签收）、NONE（不签收，没有任何操作）
+            acknowledge-mode: manual
+            #设置当前消费者数量（线程数）
+            concurrency: 10
+            #设置消费者最大的并发量
+            max-concurrency: 20
+            retry:
+               enabled: true
