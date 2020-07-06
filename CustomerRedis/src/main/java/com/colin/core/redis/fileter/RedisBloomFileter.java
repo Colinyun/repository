@@ -1,9 +1,5 @@
 package com.colin.core.redis.fileter;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
-import redis.clients.jedis.JedisCluster;
-
 /**
  * 
  * @auth c-chenyun
@@ -13,9 +9,9 @@ import redis.clients.jedis.JedisCluster;
  */
 public class RedisBloomFileter {
 
-	private int numHashFunctions;
-	
-	private int bitSize;
+//	private int numHashFunctions;
+//	
+//	private int bitSize;
 	
 //	private Funnel
 }
