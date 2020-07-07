@@ -1,13 +1,8 @@
 package com.colin.multithreading;
 
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
 import java.util.concurrent.FutureTask;
-import java.util.function.Function;
 
-import com.colin.multithreading.race.Rabbit;
-import com.colin.multithreading.race.Tortoise;
-import com.colin.multithreading.race.VectoryRace;
 import com.colin.multithreading.race1.Rabbit1;
 import com.colin.multithreading.race1.Turtoise1;
 
