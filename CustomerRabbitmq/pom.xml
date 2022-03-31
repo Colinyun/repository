@@ -7,7 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<springboot-version>2.3.0.RELEASE</springboot-version>
+		<springboot-version>2.5.12</springboot-version>
 	</properties>
 
 	<dependencies>
