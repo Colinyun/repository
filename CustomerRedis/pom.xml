@@ -8,7 +8,7 @@
 	<properties>
 		<springboot-version>2.3.0.RELEASE</springboot-version>
 		<jendis-version>3.3.0</jendis-version>
-		<jendis-redission-version>3.13.0</jendis-redission-version>
+		<jendis-redission-version>3.22.0</jendis-redission-version>
 		<hutool-version>5.3.7</hutool-version>
 	</properties>
 	
